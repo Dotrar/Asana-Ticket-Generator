@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# zip this chrome extension ignoring .git and this script
+rm extension.zip
+zip -r extension.zip . -x ./.git/\* ./zip-self
