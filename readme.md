@@ -1,6 +1,6 @@
 # Asana ticket generator
 
-Chrome web store link will be updated shortly:
+Chrome [web store link](https://chrome.google.com/webstore/detail/octoticket/dejmonfcadndjgfgkemabednodepjgni?hl=en-GB&authuser=0)
 
 ![icon](icon128.png)
 
