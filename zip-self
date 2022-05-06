@@ -2,4 +2,5 @@
 
 # zip this chrome extension ignoring .git and this script
 rm extension.zip
-zip -r extension.zip . -x ./.git/\* ./zip-self
+zip -r chrome.zip chrome -x ./.git/\* ./zip-self
+zip -r firefox.zip firefox -x ./.git/\* ./zip-self

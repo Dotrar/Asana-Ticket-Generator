@@ -1,0 +1,969 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5264494F2823E2B5007FCB55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264494E2823E2B5007FCB55 /* AppDelegate.swift */; };
+		526449512823E2B5007FCB55 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526449502823E2B5007FCB55 /* SceneDelegate.swift */; };
+		526449542823E2B5007FCB55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526449522823E2B5007FCB55 /* LaunchScreen.storyboard */; };
+		526449572823E2B5007FCB55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526449552823E2B5007FCB55 /* Main.storyboard */; };
+		526449602823E2B5007FCB55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264495F2823E2B5007FCB55 /* AppDelegate.swift */; };
+		526449632823E2B5007FCB55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526449612823E2B5007FCB55 /* Main.storyboard */; };
+		5264496B2823E2B5007FCB55 /* OctoTicket Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5264496A2823E2B5007FCB55 /* OctoTicket Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		526449752823E2B5007FCB55 /* OctoTicket Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 526449742823E2B5007FCB55 /* OctoTicket Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5264497B2823E2B5007FCB55 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 5264493F2823E2B2007FCB55 /* Main.html */; };
+		5264497C2823E2B5007FCB55 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 5264493F2823E2B2007FCB55 /* Main.html */; };
+		5264497D2823E2B5007FCB55 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 526449412823E2B2007FCB55 /* Icon.png */; };
+		5264497E2823E2B5007FCB55 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 526449412823E2B2007FCB55 /* Icon.png */; };
+		5264497F2823E2B5007FCB55 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 526449422823E2B2007FCB55 /* Style.css */; };
+		526449802823E2B5007FCB55 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 526449422823E2B2007FCB55 /* Style.css */; };
+		526449812823E2B5007FCB55 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 526449432823E2B2007FCB55 /* Script.js */; };
+		526449822823E2B5007FCB55 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 526449432823E2B2007FCB55 /* Script.js */; };
+		526449832823E2B5007FCB55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526449442823E2B2007FCB55 /* ViewController.swift */; };
+		526449842823E2B5007FCB55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526449442823E2B2007FCB55 /* ViewController.swift */; };
+		526449852823E2B5007FCB55 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526449462823E2B5007FCB55 /* SafariWebExtensionHandler.swift */; };
+		526449862823E2B5007FCB55 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526449462823E2B5007FCB55 /* SafariWebExtensionHandler.swift */; };
+		526449A22823E2B6007FCB55 /* icon16.png in Resources */ = {isa = PBXBuildFile; fileRef = 526449982823E2B6007FCB55 /* icon16.png */; };
+		526449A32823E2B6007FCB55 /* icon48.png in Resources */ = {isa = PBXBuildFile; fileRef = 526449992823E2B6007FCB55 /* icon48.png */; };
+		526449A42823E2B6007FCB55 /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = 5264499A2823E2B6007FCB55 /* options.js */; };
+		526449A52823E2B6007FCB55 /* demo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5264499B2823E2B6007FCB55 /* demo.png */; };
+		526449A62823E2B6007FCB55 /* icon128.png in Resources */ = {isa = PBXBuildFile; fileRef = 5264499C2823E2B6007FCB55 /* icon128.png */; };
+		526449A72823E2B6007FCB55 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 5264499D2823E2B6007FCB55 /* readme.md */; };
+		526449A82823E2B6007FCB55 /* zip-self in Resources */ = {isa = PBXBuildFile; fileRef = 5264499E2823E2B6007FCB55 /* zip-self */; };
+		526449A92823E2B6007FCB55 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 5264499F2823E2B6007FCB55 /* manifest.json */; };
+		526449AA2823E2B6007FCB55 /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = 526449A02823E2B6007FCB55 /* options.html */; };
+		526449AB2823E2B6007FCB55 /* asana-ticket.js in Resources */ = {isa = PBXBuildFile; fileRef = 526449A12823E2B6007FCB55 /* asana-ticket.js */; };
+		526449AC2823E2B6007FCB55 /* icon16.png in Resources */ = {isa = PBXBuildFile; fileRef = 526449982823E2B6007FCB55 /* icon16.png */; };
+		526449AD2823E2B6007FCB55 /* icon48.png in Resources */ = {isa = PBXBuildFile; fileRef = 526449992823E2B6007FCB55 /* icon48.png */; };
+		526449AE2823E2B6007FCB55 /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = 5264499A2823E2B6007FCB55 /* options.js */; };
+		526449AF2823E2B6007FCB55 /* demo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5264499B2823E2B6007FCB55 /* demo.png */; };
+		526449B02823E2B6007FCB55 /* icon128.png in Resources */ = {isa = PBXBuildFile; fileRef = 5264499C2823E2B6007FCB55 /* icon128.png */; };
+		526449B12823E2B6007FCB55 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 5264499D2823E2B6007FCB55 /* readme.md */; };
+		526449B22823E2B6007FCB55 /* zip-self in Resources */ = {isa = PBXBuildFile; fileRef = 5264499E2823E2B6007FCB55 /* zip-self */; };
+		526449B32823E2B6007FCB55 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 5264499F2823E2B6007FCB55 /* manifest.json */; };
+		526449B42823E2B6007FCB55 /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = 526449A02823E2B6007FCB55 /* options.html */; };
+		526449B52823E2B6007FCB55 /* asana-ticket.js in Resources */ = {isa = PBXBuildFile; fileRef = 526449A12823E2B6007FCB55 /* asana-ticket.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5264496C2823E2B5007FCB55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 526449392823E2B2007FCB55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 526449692823E2B5007FCB55;
+			remoteInfo = "OctoTicket Extension (iOS)";
+		};
+		526449762823E2B5007FCB55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 526449392823E2B2007FCB55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 526449732823E2B5007FCB55;
+			remoteInfo = "OctoTicket Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5264498C2823E2B5007FCB55 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5264496B2823E2B5007FCB55 /* OctoTicket Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526449932823E2B5007FCB55 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				526449752823E2B5007FCB55 /* OctoTicket Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		526449402823E2B2007FCB55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		526449412823E2B2007FCB55 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		526449422823E2B2007FCB55 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		526449432823E2B2007FCB55 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		526449442823E2B2007FCB55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		526449462823E2B5007FCB55 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		5264494B2823E2B5007FCB55 /* OctoTicket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OctoTicket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5264494E2823E2B5007FCB55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		526449502823E2B5007FCB55 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		526449532823E2B5007FCB55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		526449562823E2B5007FCB55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		526449582823E2B5007FCB55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5264495D2823E2B5007FCB55 /* OctoTicket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OctoTicket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5264495F2823E2B5007FCB55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		526449622823E2B5007FCB55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		526449642823E2B5007FCB55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		526449652823E2B5007FCB55 /* OctoTicket.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OctoTicket.entitlements; sourceTree = "<group>"; };
+		5264496A2823E2B5007FCB55 /* OctoTicket Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "OctoTicket Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5264496F2823E2B5007FCB55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		526449742823E2B5007FCB55 /* OctoTicket Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "OctoTicket Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		526449792823E2B5007FCB55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5264497A2823E2B5007FCB55 /* OctoTicket.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OctoTicket.entitlements; sourceTree = "<group>"; };
+		526449982823E2B6007FCB55 /* icon16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon16.png; path = "../../Asana-Ticket-Generator/icon16.png"; sourceTree = "<group>"; };
+		526449992823E2B6007FCB55 /* icon48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon48.png; path = "../../Asana-Ticket-Generator/icon48.png"; sourceTree = "<group>"; };
+		5264499A2823E2B6007FCB55 /* options.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = options.js; path = "../../Asana-Ticket-Generator/options.js"; sourceTree = "<group>"; };
+		5264499B2823E2B6007FCB55 /* demo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = demo.png; path = "../../Asana-Ticket-Generator/demo.png"; sourceTree = "<group>"; };
+		5264499C2823E2B6007FCB55 /* icon128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon128.png; path = "../../Asana-Ticket-Generator/icon128.png"; sourceTree = "<group>"; };
+		5264499D2823E2B6007FCB55 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = readme.md; path = "../../Asana-Ticket-Generator/readme.md"; sourceTree = "<group>"; };
+		5264499E2823E2B6007FCB55 /* zip-self */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "zip-self"; path = "../../Asana-Ticket-Generator/zip-self"; sourceTree = "<group>"; };
+		5264499F2823E2B6007FCB55 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../Asana-Ticket-Generator/manifest.json"; sourceTree = "<group>"; };
+		526449A02823E2B6007FCB55 /* options.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = options.html; path = "../../Asana-Ticket-Generator/options.html"; sourceTree = "<group>"; };
+		526449A12823E2B6007FCB55 /* asana-ticket.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "asana-ticket.js"; path = "../../Asana-Ticket-Generator/asana-ticket.js"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		526449482823E2B5007FCB55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5264495A2823E2B5007FCB55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526449672823E2B5007FCB55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526449712823E2B5007FCB55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		526449382823E2B2007FCB55 = {
+			isa = PBXGroup;
+			children = (
+				5264493D2823E2B2007FCB55 /* Shared (App) */,
+				526449452823E2B5007FCB55 /* Shared (Extension) */,
+				5264494D2823E2B5007FCB55 /* iOS (App) */,
+				5264495E2823E2B5007FCB55 /* macOS (App) */,
+				5264496E2823E2B5007FCB55 /* iOS (Extension) */,
+				526449782823E2B5007FCB55 /* macOS (Extension) */,
+				5264494C2823E2B5007FCB55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5264493D2823E2B2007FCB55 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				526449442823E2B2007FCB55 /* ViewController.swift */,
+				5264493E2823E2B2007FCB55 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		5264493E2823E2B2007FCB55 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5264493F2823E2B2007FCB55 /* Main.html */,
+				526449412823E2B2007FCB55 /* Icon.png */,
+				526449422823E2B2007FCB55 /* Style.css */,
+				526449432823E2B2007FCB55 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		526449452823E2B5007FCB55 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				526449972823E2B6007FCB55 /* Resources */,
+				526449462823E2B5007FCB55 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		5264494C2823E2B5007FCB55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5264494B2823E2B5007FCB55 /* OctoTicket.app */,
+				5264495D2823E2B5007FCB55 /* OctoTicket.app */,
+				5264496A2823E2B5007FCB55 /* OctoTicket Extension.appex */,
+				526449742823E2B5007FCB55 /* OctoTicket Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5264494D2823E2B5007FCB55 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				5264494E2823E2B5007FCB55 /* AppDelegate.swift */,
+				526449502823E2B5007FCB55 /* SceneDelegate.swift */,
+				526449522823E2B5007FCB55 /* LaunchScreen.storyboard */,
+				526449552823E2B5007FCB55 /* Main.storyboard */,
+				526449582823E2B5007FCB55 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		5264495E2823E2B5007FCB55 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				5264495F2823E2B5007FCB55 /* AppDelegate.swift */,
+				526449612823E2B5007FCB55 /* Main.storyboard */,
+				526449642823E2B5007FCB55 /* Info.plist */,
+				526449652823E2B5007FCB55 /* OctoTicket.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		5264496E2823E2B5007FCB55 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				5264496F2823E2B5007FCB55 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		526449782823E2B5007FCB55 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				526449792823E2B5007FCB55 /* Info.plist */,
+				5264497A2823E2B5007FCB55 /* OctoTicket.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		526449972823E2B6007FCB55 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				526449982823E2B6007FCB55 /* icon16.png */,
+				526449992823E2B6007FCB55 /* icon48.png */,
+				5264499A2823E2B6007FCB55 /* options.js */,
+				5264499B2823E2B6007FCB55 /* demo.png */,
+				5264499C2823E2B6007FCB55 /* icon128.png */,
+				5264499D2823E2B6007FCB55 /* readme.md */,
+				5264499E2823E2B6007FCB55 /* zip-self */,
+				5264499F2823E2B6007FCB55 /* manifest.json */,
+				526449A02823E2B6007FCB55 /* options.html */,
+				526449A12823E2B6007FCB55 /* asana-ticket.js */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5264494A2823E2B5007FCB55 /* OctoTicket (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5264498D2823E2B5007FCB55 /* Build configuration list for PBXNativeTarget "OctoTicket (iOS)" */;
+			buildPhases = (
+				526449472823E2B5007FCB55 /* Sources */,
+				526449482823E2B5007FCB55 /* Frameworks */,
+				526449492823E2B5007FCB55 /* Resources */,
+				5264498C2823E2B5007FCB55 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5264496D2823E2B5007FCB55 /* PBXTargetDependency */,
+			);
+			name = "OctoTicket (iOS)";
+			productName = "OctoTicket (iOS)";
+			productReference = 5264494B2823E2B5007FCB55 /* OctoTicket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5264495C2823E2B5007FCB55 /* OctoTicket (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 526449942823E2B5007FCB55 /* Build configuration list for PBXNativeTarget "OctoTicket (macOS)" */;
+			buildPhases = (
+				526449592823E2B5007FCB55 /* Sources */,
+				5264495A2823E2B5007FCB55 /* Frameworks */,
+				5264495B2823E2B5007FCB55 /* Resources */,
+				526449932823E2B5007FCB55 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				526449772823E2B5007FCB55 /* PBXTargetDependency */,
+			);
+			name = "OctoTicket (macOS)";
+			productName = "OctoTicket (macOS)";
+			productReference = 5264495D2823E2B5007FCB55 /* OctoTicket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		526449692823E2B5007FCB55 /* OctoTicket Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 526449892823E2B5007FCB55 /* Build configuration list for PBXNativeTarget "OctoTicket Extension (iOS)" */;
+			buildPhases = (
+				526449662823E2B5007FCB55 /* Sources */,
+				526449672823E2B5007FCB55 /* Frameworks */,
+				526449682823E2B5007FCB55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OctoTicket Extension (iOS)";
+			productName = "OctoTicket Extension (iOS)";
+			productReference = 5264496A2823E2B5007FCB55 /* OctoTicket Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		526449732823E2B5007FCB55 /* OctoTicket Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 526449902823E2B5007FCB55 /* Build configuration list for PBXNativeTarget "OctoTicket Extension (macOS)" */;
+			buildPhases = (
+				526449702823E2B5007FCB55 /* Sources */,
+				526449712823E2B5007FCB55 /* Frameworks */,
+				526449722823E2B5007FCB55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OctoTicket Extension (macOS)";
+			productName = "OctoTicket Extension (macOS)";
+			productReference = 526449742823E2B5007FCB55 /* OctoTicket Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		526449392823E2B2007FCB55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					5264494A2823E2B5007FCB55 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					5264495C2823E2B5007FCB55 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					526449692823E2B5007FCB55 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					526449732823E2B5007FCB55 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 5264493C2823E2B2007FCB55 /* Build configuration list for PBXProject "OctoTicket" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 526449382823E2B2007FCB55;
+			productRefGroup = 5264494C2823E2B5007FCB55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5264494A2823E2B5007FCB55 /* OctoTicket (iOS) */,
+				5264495C2823E2B5007FCB55 /* OctoTicket (macOS) */,
+				526449692823E2B5007FCB55 /* OctoTicket Extension (iOS) */,
+				526449732823E2B5007FCB55 /* OctoTicket Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		526449492823E2B5007FCB55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5264497D2823E2B5007FCB55 /* Icon.png in Resources */,
+				526449542823E2B5007FCB55 /* LaunchScreen.storyboard in Resources */,
+				5264497B2823E2B5007FCB55 /* Main.html in Resources */,
+				526449812823E2B5007FCB55 /* Script.js in Resources */,
+				526449572823E2B5007FCB55 /* Main.storyboard in Resources */,
+				5264497F2823E2B5007FCB55 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5264495B2823E2B5007FCB55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5264497E2823E2B5007FCB55 /* Icon.png in Resources */,
+				526449802823E2B5007FCB55 /* Style.css in Resources */,
+				526449632823E2B5007FCB55 /* Main.storyboard in Resources */,
+				526449822823E2B5007FCB55 /* Script.js in Resources */,
+				5264497C2823E2B5007FCB55 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526449682823E2B5007FCB55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526449AF2823E2B6007FCB55 /* demo.png in Resources */,
+				526449AD2823E2B6007FCB55 /* icon48.png in Resources */,
+				526449B22823E2B6007FCB55 /* zip-self in Resources */,
+				526449AE2823E2B6007FCB55 /* options.js in Resources */,
+				526449B32823E2B6007FCB55 /* manifest.json in Resources */,
+				526449B02823E2B6007FCB55 /* icon128.png in Resources */,
+				526449B12823E2B6007FCB55 /* readme.md in Resources */,
+				526449AC2823E2B6007FCB55 /* icon16.png in Resources */,
+				526449B42823E2B6007FCB55 /* options.html in Resources */,
+				526449B52823E2B6007FCB55 /* asana-ticket.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526449722823E2B5007FCB55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526449A52823E2B6007FCB55 /* demo.png in Resources */,
+				526449A32823E2B6007FCB55 /* icon48.png in Resources */,
+				526449A82823E2B6007FCB55 /* zip-self in Resources */,
+				526449A42823E2B6007FCB55 /* options.js in Resources */,
+				526449A92823E2B6007FCB55 /* manifest.json in Resources */,
+				526449A62823E2B6007FCB55 /* icon128.png in Resources */,
+				526449A72823E2B6007FCB55 /* readme.md in Resources */,
+				526449A22823E2B6007FCB55 /* icon16.png in Resources */,
+				526449AA2823E2B6007FCB55 /* options.html in Resources */,
+				526449AB2823E2B6007FCB55 /* asana-ticket.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		526449472823E2B5007FCB55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526449832823E2B5007FCB55 /* ViewController.swift in Sources */,
+				5264494F2823E2B5007FCB55 /* AppDelegate.swift in Sources */,
+				526449512823E2B5007FCB55 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526449592823E2B5007FCB55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526449842823E2B5007FCB55 /* ViewController.swift in Sources */,
+				526449602823E2B5007FCB55 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526449662823E2B5007FCB55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526449852823E2B5007FCB55 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		526449702823E2B5007FCB55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526449862823E2B5007FCB55 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5264496D2823E2B5007FCB55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 526449692823E2B5007FCB55 /* OctoTicket Extension (iOS) */;
+			targetProxy = 5264496C2823E2B5007FCB55 /* PBXContainerItemProxy */;
+		};
+		526449772823E2B5007FCB55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 526449732823E2B5007FCB55 /* OctoTicket Extension (macOS) */;
+			targetProxy = 526449762823E2B5007FCB55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5264493F2823E2B2007FCB55 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				526449402823E2B2007FCB55 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		526449522823E2B5007FCB55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				526449532823E2B5007FCB55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		526449552823E2B5007FCB55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				526449562823E2B5007FCB55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		526449612823E2B5007FCB55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				526449622823E2B5007FCB55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		526449872823E2B5007FCB55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		526449882823E2B5007FCB55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5264498A2823E2B5007FCB55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "OctoTicket Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.OctoTicket.Extension;
+				PRODUCT_NAME = "OctoTicket Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5264498B2823E2B5007FCB55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "OctoTicket Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.OctoTicket.Extension;
+				PRODUCT_NAME = "OctoTicket Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5264498E2823E2B5007FCB55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = OctoTicket;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.OctoTicket;
+				PRODUCT_NAME = OctoTicket;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5264498F2823E2B5007FCB55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = OctoTicket;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.OctoTicket;
+				PRODUCT_NAME = OctoTicket;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		526449912823E2B5007FCB55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/OctoTicket.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "OctoTicket Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.OctoTicket.Extension;
+				PRODUCT_NAME = "OctoTicket Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		526449922823E2B5007FCB55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/OctoTicket.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "OctoTicket Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.OctoTicket.Extension;
+				PRODUCT_NAME = "OctoTicket Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		526449952823E2B5007FCB55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/OctoTicket.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = OctoTicket;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.OctoTicket;
+				PRODUCT_NAME = OctoTicket;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		526449962823E2B5007FCB55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/OctoTicket.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = OctoTicket;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.OctoTicket;
+				PRODUCT_NAME = OctoTicket;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5264493C2823E2B2007FCB55 /* Build configuration list for PBXProject "OctoTicket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526449872823E2B5007FCB55 /* Debug */,
+				526449882823E2B5007FCB55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		526449892823E2B5007FCB55 /* Build configuration list for PBXNativeTarget "OctoTicket Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5264498A2823E2B5007FCB55 /* Debug */,
+				5264498B2823E2B5007FCB55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5264498D2823E2B5007FCB55 /* Build configuration list for PBXNativeTarget "OctoTicket (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5264498E2823E2B5007FCB55 /* Debug */,
+				5264498F2823E2B5007FCB55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		526449902823E2B5007FCB55 /* Build configuration list for PBXNativeTarget "OctoTicket Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526449912823E2B5007FCB55 /* Debug */,
+				526449922823E2B5007FCB55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		526449942823E2B5007FCB55 /* Build configuration list for PBXNativeTarget "OctoTicket (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526449952823E2B5007FCB55 /* Debug */,
+				526449962823E2B5007FCB55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 526449392823E2B2007FCB55 /* Project object */;
+}
