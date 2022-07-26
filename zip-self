@@ -1,6 +1,9 @@
 #!/bin/bash
 
 # zip this chrome extension ignoring .git and this script
-rm extension.zip
-zip -r chrome.zip chrome -x ./.git/\* ./zip-self
-zip -r firefox.zip firefox -x ./.git/\* ./zip-self
+rm chrome.zip
+rm firefox.zip
+cd chrome
+zip ../chrome.zip * 
+cd ../firefox
+zip ../firefox.zip *
