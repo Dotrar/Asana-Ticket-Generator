@@ -1,8 +1,9 @@
 # Asana ticket generator
 
-Chrome [web store link](https://chrome.google.com/webstore/detail/octoticket/dejmonfcadndjgfgkemabednodepjgni?hl=en-GB&authuser=0)
+* Chrome [web store link](https://chrome.google.com/webstore/detail/octoticket/dejmonfcadndjgfgkemabednodepjgni?hl=en-GB&authuser=0)
+* Firefox [web extentions link](https://addons.mozilla.org/en-US/firefox/addon/octoticket/)
 
-![icon](icon128.png)
+![icon](chrome/icon16.png)
 
 ## How to use
 
@@ -12,4 +13,4 @@ Then change the extension options: left side is `prefix`, right side is `company
 
 Use the same `prefix` and `company_key` as your teammates to all use the same ticket numbering system.
 
-![demo of save options](demo.png)
+![demo of save options](chrome/demo.png)
