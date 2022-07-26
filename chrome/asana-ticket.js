@@ -45,7 +45,7 @@ chrome.storage.sync.get(
             }
             xhr.send();
         }
-        document.addEventListener('keydown', checkkey);
+        document.body.addEventListener('keydown', checkkey);
     },
 );
 

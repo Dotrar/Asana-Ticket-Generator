@@ -1,6 +1,6 @@
 {
     "name": "OctoTicket",
-    "description": "Will it work? find out!",
+    "description": "Add asana ticket numbers on Ctrl-Space",
     "version": "1.0",
     "manifest_version": 3,
     "permissions": [
